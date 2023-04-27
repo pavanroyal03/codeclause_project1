@@ -1,0 +1,90 @@
+.header {
+    background-color: #908b92;
+    padding: 30px 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    float: left;
+    font-size: 20px;
+  }
+  
+  .addbutton {
+    padding: 10px;
+    width: 25%;
+    background: #594f5c;
+    color: rgb(245, 241, 241);
+    float: left;
+    margin-top: 20px;
+    margin-left: 38%;
+    text-align: center;
+  }
+  
+  .addbutton:hover {
+    background-color: #000000;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body{
+      background-color: #000000;
+  }
+  
+  ul {
+    background-color: #000000;
+    margin-top: 15px;
+    padding:20px; 
+  }
+  
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #f7f3f3;
+    font-size: 18px;
+  }
+  
+  ul li:hover {
+    background: #ada9ad;
+  }
+  
+  ul li.checked {
+    background: #e5caeb;
+  }
+  
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  
+  .cross {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  /*
+  .cross:hover {
+    background-color: #0f0c0c;
+    color: rgb(199, 188, 188);
+  }
+  */
